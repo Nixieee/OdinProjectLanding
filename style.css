@@ -19,7 +19,9 @@ img{
 h1{
     font-size: 48px;
     font-weight: 800;
-    color:#F9FAF8
+    color:#F9FAF8;
+    margin: 0px;
+    
 }
 
 .header>.right-links,h8{
@@ -38,7 +40,6 @@ h1{
     padding-top:64px;
     display:flex;
     justify-content: space-between;
-    gap:16px;
 }
 
 .left{
@@ -46,8 +47,19 @@ h1{
     flex-direction: column;
     align-content: flex-start;
     align-items: flex-start;
+    gap:8px;
 }
 
+input{
+    background-color: #3882F6;
+    border-radius: 6px;
+    border:0px;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:32px;
+    padding-right:32px;
+    color: #E5E7EB;
+}
 
 ul{
     display:flex;
