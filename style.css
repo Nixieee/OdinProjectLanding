@@ -27,10 +27,10 @@ h1{
     font-size: 18px;
     color: #E5E7EB;
 }
-.header,.footer{
+.header{
     display:flex;
     justify-content: space-between;
-  }
+}
 .header>.left-links{
     font-size: 24px;
     color: #F9FAF8;
@@ -73,11 +73,11 @@ ul{
 }
 
 .abovecenter{
+    margin-top:64px;
     text-align: center;
 }
 
 .info{
-    margin-top:32px;
     font-size: 36px;
     font-weight: 800;
     margin-bottom: 32px;
@@ -96,4 +96,71 @@ ul{
 
 .text{
     color:gray;
+}
+
+.belowcenter{
+    margin-top:64px;
+    display:flex;
+    padding:128px;
+    background-color: #E5E7EB;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.belowcenter>.text{
+    display:flex;
+    flex-direction: column;
+    font-size: 36px;
+    font-style: italic;
+    padding-left:32px;
+    padding-right:32px;
+}
+
+.belowcenter>.text>.author{
+    display:flex;
+    justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 800;
+    color:black;
+}
+
+.abovefooter{
+    margin-top:64px;
+    padding:128px;
+    display:flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.bluearea{
+    display: flex;
+    padding:32px;
+    padding-left:64px;
+    padding-right: 64px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    color:white;
+    align-items: center;
+    gap:32px;
+}
+
+.bluearea>.right
+{
+  border:2px solid white;
+  border-radius: 6px;
+}
+
+h3{
+    margin:0px;
+}
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:32px;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
