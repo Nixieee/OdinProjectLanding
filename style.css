@@ -3,10 +3,9 @@ body{
     display: flex;
     flex-direction: column;
     margin:0px;
+
 }
-img{
-    width: 400px;
-}
+
 .topcontainer{
     background-color: #1F2937;
     padding-top:16px;
@@ -50,6 +49,10 @@ h1{
     gap:8px;
 }
 
+.right>img{
+   width:400px;
+}
+
 input{
     background-color: #3882F6;
     border-radius: 6px;
@@ -67,4 +70,30 @@ ul{
     margin:0;
     padding:0;
     gap:16px;
+}
+
+.abovecenter{
+    text-align: center;
+}
+
+.info{
+    margin-top:32px;
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    color:#1F2937
+}
+.images{
+    display:flex;
+    justify-content: center;
+    gap:16px;
+}
+.image1,.image2,.image3,.image4{
+    display:flex;
+    flex-direction: column;
+    width:100px;
+}
+
+.text{
+    color:gray;
 }
